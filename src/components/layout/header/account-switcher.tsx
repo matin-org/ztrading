@@ -95,7 +95,7 @@ const AccountSwitcher = observer(({ activeAccount }: TAccountSwitcher) => {
                     <span className='acc-info__id' aria-hidden='true'></span>
                     <div className='acc-info__content'>
                         <div className='acc-info__account-type-header'>
-                            <Text as='p' size='xxxs' className='acc-info__account-type'>
+                            <Text as='p' size='xs' className='acc-info__account-type'>
                                 {isVirtual ? (
                                     <Localize i18n_default_text='Demo account' />
                                 ) : (
