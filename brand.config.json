@@ -73,7 +73,7 @@
         },
         "hostname": {
             "production": {
-                "com": "https://ztrading.vercel.app"
+                "com": "ztrading.vercel.app"
             },
             "staging": {
                 "com": "staging-bot.yourbrand.com"
