@@ -264,7 +264,7 @@ export const generateOAuthURL = async (prompt?: string) => {
                 oauthUrl += `&app_id=${encodeURIComponent(appId)}`;
             }
 
-            console.warning('Generated OAuth URL:', oauthUrl);
+            console.warn('Generated OAuth URL:', oauthUrl);
             return oauthUrl;
         }
     } catch (error) {
